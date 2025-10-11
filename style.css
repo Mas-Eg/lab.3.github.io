@@ -1,32 +1,10 @@
 *{
     margin: 0;
-    font-family: 'Calisto MT', cursive;
+    padding: 0;
+    font-family: 'Century Gothic', cursive;
 }
-#main-aside-wrapper {
- display: flex;
- flex-direction: column;
-}
-#main-aside-wrapper main, #mainaside-wrapper aside {
- background-color: #ddd;
- margin: 10px;
- padding: 10px;
-}
-#main-aside-wrapper aside {
- flex: 1;
- order: 1;
-}
-#main-aside-wrapper main {
- flex: 3;
- order: 2;
-}
-@media screen and (min-width:
-800px) {
- #main-aside-wrapper {
- flex-direction: row;
- }
-}
+
 body{
-    background-image: url(https://i.pinimg.com/originals/c2/9a/87/c29a8738f8c1e2a044c51b08fff783cd.jpg);
     background-repeat: repeat;
     background-size: contain;
     width: 100vw;
@@ -34,47 +12,95 @@ body{
 }
 
 header{
-    background-color: #00a2ff;
+    background-color: #6495ED;
     width: 100%;
-    height: 150px;
-    float: left;
+    height: 70px;
+    margin-bottom: 25px;
+    top: 0;
+}
+
+#header-top{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#center{
+    width: 100%;
+    margin: auto;
+    background-color: #6495ED;
+    margin-bottom: 25px;
+    flex: 1;
+    
+}
+
+#order {
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+    padding-left: 35px;
+    margin-top: auto; 
+}
+
+#list-name{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+#forma{
+    width: 100%;
+    margin: auto;
+    background-color: #6495ED;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .name{
-    float: left;
+    margin-top: 30px;
+    margin: 10;
+    float: right;
+    color: #bdc4d4;
+    font-size: large;
+    margin-left: 20px;
 }
 #logo{
-    width: 100px;
-    height: 100px;
-    margin: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
     float: left;
+
 }
 
-
-
 nav{
-    float: right;
+    margin-top: 25px;
+    margin: 10;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6495ED;
     display: flex;
-    margin: 20px;
+    width: 100%;
+    flex-direction: column;
 }
 
 .nav-link{
     padding-left:30px ;
     font-size: 25px;
+    color: #011427;
+    font-family: Courier New, monospace;
 }
 
-.container{
-    max-width: 960px;
+#tablic{
+    margin: auto;
     width: 100%;
-    margin: auto;
-    background-color: #8ad0ff;
-}
-
-.tablic{
-    width: 80%;
-    margin: auto;
-     border: 1px solid grey;
-     background-color: #fff;
+    margin-top: 145px;
+    margin-bottom: 25px;
+    border: 1px solid grey;
+    color: #000124;
+    text-align: center;
+    order: -1;
 }
 
 th {
@@ -86,25 +112,123 @@ td {
 }
 
 .chet{
-    background: #1d32a7;
+    background: #6495ED;
 }
+
+.link{
+    padding-left:30px ;
+    font-size: 25px;
+    color: #bdc4d4;
+    font-family: 'Century Gothic', cursive;
+    display: flex;
+}
+
 footer{
-    width: 100vw;
+    background-color: #6495ED;
+    width: 100%;
+    height: 60px;
 }
-#element{
+
+.name2{
     margin-left: 30px;
     margin-top: 15px;
     float: left;
-    background: grey;
+    color: #bdc4d4;
 }
 
 
 
+@media (min-width: 767px){
+    
+    header{
+        position: relative;
+        background-color: #6495ED;
+        width: 100%;
+        height: 140px;
+        margin-bottom: 25px;
+        top: 0;
+    }
+    
+    nav{
+        z-index: 0;
+        right: 0;
+        top: 0;
+        position: absolute;
+        float: right;
+        margin: 20px;
+        max-width: 960px;
+        width: 100%;
+        flex-direction: row;
+    }
 
+    #tablic{
+        margin: 10;
+        max-width: 960px;
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 1px solid grey;
+        color: #000124;
+        text-align: center;
+    }
+    #forma{
+        max-width: 960px;
+        width: 100%;
+        margin: auto;
+        background-color: #6495ED;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
+    #center{
+        max-width: 960px;
+        width: 80%;
+        margin: auto;
+        background-color: #6495ED;
+        margin-bottom: 25px;
+        margin-top: 25px; 
+        order: 1;
+    }
 
+    .name{
+        margin-top: 56px;
+        float: left;
+        color: #bdc4d4;
+        font-size: xx-large;
+    }
 
+    #logo{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        float: left;
+        margin-top: 10px;
+    }
 
+    .link{
+        padding-left:30px ;
+        font-size: 25px;
+        color: #bdc4d4;
+        font-family: 'Century Gothic', cursive;
+    }
 
+    #header-top{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
 
-
+    #order {
+    display: block;
+    .tablic{
+        order: 0;
+    }
+    #center{
+        order: 0;
+    }
+    }
+    
+}
