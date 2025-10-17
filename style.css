@@ -62,7 +62,7 @@ header{
     margin-top: 30px;
     margin: 10;
     float: right;
-    color: #bdc4d4;
+    color: black;
     font-size: large;
     margin-left: 20px;
 }
@@ -89,7 +89,7 @@ nav{
 .nav-link{
     padding-left:30px ;
     font-size: 25px;
-    color: #011427;
+    color: black;
     font-family: Courier New, monospace;
 }
 
@@ -99,7 +99,7 @@ nav{
     margin-top: 145px;
     margin-bottom: 25px;
     border: 1px solid grey;
-    color: #000124;
+    color: black;
     text-align: center;
     order: -1;
 }
@@ -119,7 +119,7 @@ td {
 .link{
     padding-left:30px ;
     font-size: 25px;
-    color: #bdc4d4;
+    color: black;
     font-family: 'Century Gothic', cursive;
     display: flex;
 }
@@ -134,7 +134,7 @@ footer{
     margin-left: 30px;
     margin-top: 15px;
     float: left;
-    color: #bdc4d4;
+    color: black;
 }
 
 
@@ -170,7 +170,7 @@ footer{
         margin-top: 25px;
         margin-bottom: 25px;
         border: 1px solid grey;
-        color: #000124;
+        color: black;
         text-align: center;
     }
     #forma{
@@ -195,7 +195,7 @@ footer{
     .name{
         margin-top: 56px;
         float: left;
-        color: #bdc4d4;
+        color: black;
         font-size: xx-large;
     }
 
@@ -210,7 +210,7 @@ footer{
     .link{
         padding-left:30px ;
         font-size: 25px;
-        color: #bdc4d4;
+        color: black;
         font-family: 'Century Gothic', cursive;
     }
 
